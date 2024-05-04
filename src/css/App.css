@@ -4,3 +4,12 @@
 .App .heading-area .title {
   margin-bottom: 10px;
 }
+.App .heading-area .subtitle {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .App {
+    padding: 2% 5%;
+  }
+}

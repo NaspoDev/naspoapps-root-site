@@ -5,5 +5,15 @@
     .title {
       margin-bottom: 10px;
     }
+
+    .subtitle {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    padding: 2% 5%;
   }
 }

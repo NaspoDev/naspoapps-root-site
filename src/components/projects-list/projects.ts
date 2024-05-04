@@ -45,7 +45,7 @@ const projects: project[] = [
   {
     title: "Tether",
     description:
-      "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and even players.",
+      "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and other players.",
     techStack: "Java, Maven, SpigotMC API.",
     link: "https://www.spigotmc.org/resources/tether.100941/",
     githubLink: "https://github.com/NaspoDev/Tether",
@@ -55,7 +55,8 @@ const projects: project[] = [
   {
     title: "Pack Manager Pro",
     description:
-      "A Minecraft plugin that allows server administrators to much more easily manage server resource packs. No need to edit the server.properties or restart the server. It even supports per-world resource packs.",
+      "A Minecraft plugin that allows server administrators to much more easily manage server resource packs. \
+      No need to edit the server.properties or restart the server. It even supports per-world resource packs.",
     techStack: "Java, Maven, SpigotMC API.",
     link: "https://www.spigotmc.org/resources/packmanagerpro.105819/",
     githubLink: "https://github.com/NaspoDev/PackManagerPro",
