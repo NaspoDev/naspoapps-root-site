@@ -4,6 +4,21 @@
 .ProjectsList li {
   padding-bottom: 40px;
 }
+.ProjectsList li .project-heading-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ProjectsList li .project-heading-area a {
+  margin-left: 20px;
+}
+.ProjectsList li .project-heading-area a i {
+  font-size: 20px;
+}
+.ProjectsList li .project-heading-area a img {
+  width: 22px;
+}
 .ProjectsList li .tech-stack {
   padding-top: 10px;
 }

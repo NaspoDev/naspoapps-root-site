@@ -34,37 +34,41 @@ const projects: project[] = [
   // Password Generator
   {
     title: "Password Generator",
-    description: "",
-    techStack: "",
-    link: "",
-    githubLink: "",
+    description:
+      "Generate random secure passwords, all while being able to specify length and characters used. You can also validate existing passwords.",
+    techStack: "Plain old TypeScript with HTML and CSS.",
+    link: "https://password-generator.naspoapps.com/",
+    githubLink: "https://github.com/NaspoDev/PasswordGenerator",
   },
 
   // Tether
   {
     title: "Tether",
-    description: "",
-    techStack: "",
-    link: "",
-    githubLink: "",
+    description:
+      "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and even players.",
+    techStack: "Java, Maven, SpigotMC API.",
+    link: "https://www.spigotmc.org/resources/tether.100941/",
+    githubLink: "https://github.com/NaspoDev/Tether",
   },
 
   // Pack Manager Pro
   {
     title: "Pack Manager Pro",
-    description: "",
-    techStack: "",
-    link: "",
-    githubLink: "",
+    description:
+      "A Minecraft plugin that allows server administrators to much more easily manage server resource packs. No need to edit the server.properties or restart the server. It even supports per-world resource packs.",
+    techStack: "Java, Maven, SpigotMC API.",
+    link: "https://www.spigotmc.org/resources/packmanagerpro.105819/",
+    githubLink: "https://github.com/NaspoDev/PackManagerPro",
   },
 
   // Showcase
   {
     title: "Showcase",
-    description: "",
-    techStack: "",
-    link: "",
-    githubLink: "",
+    description:
+      "A Minecraft plugin that allows players to show off their prized possessions by storing them in a publicly viewable GUI.",
+    techStack: "Java, Maven, SpigotMC API.",
+    link: "https://www.spigotmc.org/resources/showcase.101606/",
+    githubLink: "https://github.com/NaspoDev/Showcase",
   },
 ];
 

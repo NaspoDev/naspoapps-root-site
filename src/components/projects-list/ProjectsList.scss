@@ -4,6 +4,27 @@
   li {
     padding-bottom: 40px;
 
+    .project-heading-area {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      a {
+        margin-left: 20px;
+
+        // project link icon
+        i {
+          font-size: 20px;
+        }
+
+        // github link image
+        img {
+          width: 22px;
+        }
+      }
+    }
+
     .tech-stack {
       padding-top: 10px;
     }
