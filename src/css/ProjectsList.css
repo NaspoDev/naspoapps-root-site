@@ -1,0 +1,9 @@
+.ProjectsList {
+  margin-top: 50px;
+}
+.ProjectsList li {
+  padding-bottom: 40px;
+}
+.ProjectsList li .tech-stack {
+  padding-top: 10px;
+}
