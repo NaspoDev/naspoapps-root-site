@@ -25,7 +25,7 @@ const projects: project[] = [
     title: "URL Shortener",
     description:
       "Shorten any url easily. The app works by returning a base-62 conversion of the entry's MySQL auto_increment database id, \
-        and setting that as the new shortened url path. Making is short and unique every time.",
+        and setting that as the new shortened url path. Making it short and unique every time.",
     techStack: "React, Spring Boot, MySQL, Docker, NGINX.",
     link: "https://lnk.naspoapps.com/",
     githubLink: "https://github.com/NaspoDev/url-shortener",
