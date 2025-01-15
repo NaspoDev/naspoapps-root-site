@@ -9,6 +9,17 @@ interface project {
 }
 
 const projects: project[] = [
+  // QuizMe (Flashcard WebApp)
+  {
+    title: "QuizMe (Flashcard WebApp)",
+    description:
+      "Create flashcards and place them in topics to organize them. Quiz yourself on your topics, quizzes can be timed or not. \
+      It's a full-stack flashcard webapp with Google OAuth2 authentication.",
+    techStack: "React, Express.js, MySQL, Docker, NGINX.",
+    link: "https://quizme.naspoapps.com/",
+    githubLink: "https://github.com/NaspoDev/QuizMe",
+  },
+
   // To-Do Webapp
   {
     title: "To-Do WebApp",
