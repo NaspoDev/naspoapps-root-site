@@ -12,10 +12,12 @@ function ProjectsList() {
               {project.title}
             </h3>
 
-            {/* project link icon */}
-            <a href={project.link} target="_blank">
-              <i className="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
+            {/* if project link is not null, render a clickable icon */}
+            {project.link !== null && (
+              <a href={project.link} target="_blank">
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            )}
 
             {/* If github link is not null, render a github link icon */}
             {project.githubLink !== null && (

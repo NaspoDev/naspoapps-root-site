@@ -4,11 +4,21 @@ interface project {
   title: string;
   description: string;
   techStack: string;
-  link: string;
+  link: string | null;
   githubLink: string | null;
 }
 
 const projects: project[] = [
+  // Tether
+  {
+    title: "Tether",
+    description:
+      "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and other players.",
+    techStack: "Java, Maven, SpigotMC API.",
+    link: "https://www.spigotmc.org/resources/tether.100941/",
+    githubLink: "https://github.com/NaspoDev/Tether",
+  },
+
   // QuizMe (Flashcard WebApp)
   {
     title: "QuizMe (Flashcard WebApp)",
@@ -20,15 +30,14 @@ const projects: project[] = [
     githubLink: "https://github.com/NaspoDev/QuizMe",
   },
 
-  // To-Do Webapp
+  // BidSure Backend
   {
-    title: "To-Do WebApp",
+    title: "BidSure Backend",
     description:
-      "A full stack to-do webapp where users can add new tasks (with optional due dates), mark tasks as completed, \
-      and delete tasks. It uses local storage to restore the data when the user returns to the site.",
-    techStack: "React, Express.js, MySQL, Docker, NGINX.",
-    link: "https://todo.naspoapps.com/",
-    githubLink: "https://github.com/NaspoDev/To-Do-WebApp",
+      "The microservice backend for the BidSure auction web-application.",
+    techStack: "Spring Boot, Spring Data JPA, Docker.",
+    link: null,
+    githubLink: "https://github.com/NaspoDev/bidsure-backend",
   },
 
   // URL Shortener
@@ -40,26 +49,6 @@ const projects: project[] = [
     techStack: "React, Spring Boot, MySQL, Docker, NGINX.",
     link: "https://lnk.naspoapps.com/",
     githubLink: "https://github.com/NaspoDev/url-shortener",
-  },
-
-  // Password Generator
-  {
-    title: "Password Generator",
-    description:
-      "Generate random secure passwords, all while being able to specify length and characters used. You can also validate existing passwords.",
-    techStack: "Plain old TypeScript with HTML and CSS.",
-    link: "https://password-generator.naspoapps.com/",
-    githubLink: "https://github.com/NaspoDev/PasswordGenerator",
-  },
-
-  // Tether
-  {
-    title: "Tether",
-    description:
-      "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and other players.",
-    techStack: "Java, Maven, SpigotMC API.",
-    link: "https://www.spigotmc.org/resources/tether.100941/",
-    githubLink: "https://github.com/NaspoDev/Tether",
   },
 
   // Pack Manager Pro
@@ -81,6 +70,27 @@ const projects: project[] = [
     techStack: "Java, Maven, SpigotMC API.",
     link: "https://www.spigotmc.org/resources/showcase.101606/",
     githubLink: "https://github.com/NaspoDev/Showcase",
+  },
+
+  // To-Do Webapp
+  {
+    title: "To-Do WebApp",
+    description:
+      "A full stack to-do webapp where users can add new tasks (with optional due dates), mark tasks as completed, \
+      and delete tasks. It uses local storage to restore the data when the user returns to the site.",
+    techStack: "React, Express.js, MySQL, Docker, NGINX.",
+    link: "https://todo.naspoapps.com/",
+    githubLink: "https://github.com/NaspoDev/To-Do-WebApp",
+  },
+
+  // Password Generator
+  {
+    title: "Password Generator",
+    description:
+      "Generate random secure passwords, all while being able to specify length and characters used. You can also validate existing passwords.",
+    techStack: "Plain old TypeScript with HTML and CSS.",
+    link: "https://password-generator.naspoapps.com/",
+    githubLink: "https://github.com/NaspoDev/PasswordGenerator",
   },
 ];
 
