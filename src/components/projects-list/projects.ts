@@ -72,17 +72,6 @@ const projects: project[] = [
     githubLink: "https://github.com/NaspoDev/Showcase",
   },
 
-  // To-Do Webapp
-  {
-    title: "To-Do WebApp",
-    description:
-      "A full stack to-do webapp where users can add new tasks (with optional due dates), mark tasks as completed, \
-      and delete tasks. It uses local storage to restore the data when the user returns to the site.",
-    techStack: "React, Express.js, MySQL, Docker, NGINX.",
-    link: "https://todo.naspoapps.com/",
-    githubLink: "https://github.com/NaspoDev/To-Do-WebApp",
-  },
-
   // Password Generator
   {
     title: "Password Generator",
