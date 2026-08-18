@@ -15,7 +15,7 @@ const projects: project[] = [
     description:
       "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and other players.",
     techStack: "Java, Maven, SpigotMC API.",
-    link: "https://www.spigotmc.org/resources/tether.100941/",
+    link: null,
     githubLink: "https://github.com/NaspoDev/Tether",
   },
 
@@ -30,16 +30,6 @@ const projects: project[] = [
     githubLink: "https://github.com/NaspoDev/QuizMe",
   },
 
-  // BidSure Backend
-  {
-    title: "BidSure Backend",
-    description:
-      "The microservice backend for the BidSure auction web-application.",
-    techStack: "Spring Boot, Spring Data JPA, Docker.",
-    link: null,
-    githubLink: "https://github.com/NaspoDev/bidsure-backend",
-  },
-
   // URL Shortener
   {
     title: "URL Shortener",
@@ -51,6 +41,16 @@ const projects: project[] = [
     githubLink: "https://github.com/NaspoDev/url-shortener",
   },
 
+  // BidSure Backend
+  {
+    title: "BidSure Backend",
+    description:
+      "The microservice backend for the BidSure auction web-application.",
+    techStack: "Spring Boot, Spring Data JPA, Docker.",
+    link: null,
+    githubLink: "https://github.com/NaspoDev/bidsure-backend",
+  },
+
   // Pack Manager Pro
   {
     title: "Pack Manager Pro",
@@ -58,7 +58,7 @@ const projects: project[] = [
       "A Minecraft plugin that allows server administrators to much more easily manage server resource packs. \
       No need to edit the server.properties or restart the server. It even supports per-world resource packs.",
     techStack: "Java, Maven, SpigotMC API.",
-    link: "https://www.spigotmc.org/resources/packmanagerpro.105819/",
+    link: null,
     githubLink: "https://github.com/NaspoDev/PackManagerPro",
   },
 
@@ -68,7 +68,7 @@ const projects: project[] = [
     description:
       "A Minecraft plugin that allows players to show off their prized possessions by storing them in a publicly viewable GUI.",
     techStack: "Java, Maven, SpigotMC API.",
-    link: "https://www.spigotmc.org/resources/showcase.101606/",
+    link: null,
     githubLink: "https://github.com/NaspoDev/Showcase",
   },
 
