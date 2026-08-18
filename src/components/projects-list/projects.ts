@@ -14,7 +14,7 @@ const projects: project[] = [
     title: "Tether",
     description:
       "My most successful Minecraft plugin. Tether allows players to attach a lead to any mob, and other players.",
-    techStack: "Java, Maven, SpigotMC API.",
+    techStack: "Java, Kotlin, Maven, Paper API.",
     link: null,
     githubLink: "https://github.com/NaspoDev/Tether",
   },
